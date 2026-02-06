@@ -1,3 +1,5 @@
+package calculadora;
+
 public interface Calculator {
     int sumar(int a, int b);
     int multiplicar(int a, int b);

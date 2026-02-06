@@ -1,3 +1,5 @@
+package calculadora;
+
 public class CalculatorException extends Exception {
 
     public enum Code {
@@ -8,8 +10,8 @@ public class CalculatorException extends Exception {
     }
 
     private final Code code;
-    private final String token; // opcional (solo útil en INVALID_TOKEN)
-
+    private final String token;
+    
     public CalculatorException(Code code, String message) {
         super(message);
         this.code = code;

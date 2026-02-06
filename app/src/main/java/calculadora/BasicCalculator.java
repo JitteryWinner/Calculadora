@@ -1,3 +1,5 @@
+package calculadora;
+
 public class BasicCalculator implements Calculator {
     @Override
     public int sumar(int a, int b) { return a + b; }

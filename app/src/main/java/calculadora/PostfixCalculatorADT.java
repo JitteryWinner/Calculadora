@@ -1,12 +1,8 @@
-/**
- * ADT para evaluar expresiones en notación Postfix.
- */
+package calculadora;
+
 public interface PostfixCalculatorADT {
-    /**
-     * @param expression expresión postfix con tokens separados por espacios.
-     * @return resultado entero
-     * @throws CalculatorException si hay tokens inválidos, división entre cero,
-     *         o faltan operandos.
-     */
+    @param expression
+    @return
+    @throws CalculatorException 
     int evaluate(String expression) throws CalculatorException;
 }
