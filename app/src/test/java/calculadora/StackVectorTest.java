@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 public class StackVectorTest {
 
     @Test
-    void pushPopWorks() {
+    void pushYPopFuncionan() {
         Stack<Integer> s = new StackVector<>();
         s.push(10);
         s.push(20);
@@ -20,7 +20,7 @@ public class StackVectorTest {
     }
 
     @Test
-    void peekWorks() {
+    void peekFunciona() {
         Stack<String> s = new StackVector<>();
         s.push("A");
         s.push("B");
@@ -29,13 +29,13 @@ public class StackVectorTest {
     }
 
     @Test
-    void popEmptyThrows() {
+    void popEnPilaVaciaLanzaExcepcion() {
         Stack<Integer> s = new StackVector<>();
         assertThrows(EmptyStackException.class, s::pop);
     }
 
     @Test
-    void peekEmptyThrows() {
+    void peekEnPilaVaciaLanzaExcepcion() {
         Stack<Integer> s = new StackVector<>();
         assertThrows(EmptyStackException.class, s::peek);
     }
