@@ -15,7 +15,7 @@ public class Main {
 
         PostfixCalculatorADT postfix = new PostfixCalculator(stack, new BasicCalculator());
 
-        try (BufferedReader br = new BufferedReader(new FileReader("datos.txt"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("app/src/main/java/calculadora/datos.txt"))) {
             String line;
             while ((line = br.readLine()) != null) {
                 try {
