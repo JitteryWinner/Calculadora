@@ -1,5 +1,11 @@
 package calculadora;
 
+/**
+    * Es la implementación personalizada de una lista dinámica llamada "Vector".
+    * Gestiona automáticamente el crecimiento de la capacidad interna.
+    * @param <T> Es el tipo de objetos almacenados en el vector.
+ */
+
 import java.util.Arrays;
 import java.util.NoSuchElementException;
 

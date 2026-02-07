@@ -26,7 +26,7 @@ public class Main {
                 }
             }
         } catch (Exception e) {
-            System.out.println("No se pudo leer datos.txt: " + e.getMessage());
+            System.out.println("Lo sentimos. No se pudo leer el archivo datos.txt: " + e.getMessage());
         }
     }
 }
